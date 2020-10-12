@@ -11,8 +11,18 @@ Type 'npm init' - this will initalise npm
 
 Type 'npm install' - this will install node modules
 
-Update gulp by 'npm install -g gulp'
+--------------------------------------------------------
+
+To run auto compiler
+
+Make sure gulp is up to date by 'npm install -g gulp'
+
+Run 'gulp watch'
 
 Now everything should be set up, run 'gulp watch' this will auto compile sass into css and run browser sync which will automatically refresh the page when files are saved. This applies to html, css and js
+
+---------------------------------------------------------
+
+check .gitignore file and ensure that node_modules file is in there as you do not need to upload this file.
 
 PLEASE DO NOT COMMIT AND UPDATE THIS FILE AS THIS IS A TEMPLATE
