@@ -1,0 +1,14 @@
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+p {
+  font-size: 12px; }
+  @media (min-width: 800px) {
+    p {
+      font-size: 15px; } }
+  @media (min-width: 1200px) {
+    p {
+      font-size: 18px; } }

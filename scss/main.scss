@@ -1,0 +1,16 @@
+//gulp watch
+@import 'variables';
+@import 'typography';
+
+body {
+    background-color: black;
+
+    h1 {
+        color: white;
+    }
+
+    .hello {
+        color: $secondary-color;
+    }
+
+}
