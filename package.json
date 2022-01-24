@@ -1,16 +1,25 @@
 {
-  "name": "start-project",
+  "name": "blur-loading",
   "version": "1.0.0",
-  "description": "starter project",
+  "description": "Make sure you have node.js, git bash installed",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Phu Tran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phuuu/blur-loading.git"
+  },
+  "author": "Phu",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phuuu/blur-loading/issues"
+  },
+  "homepage": "https://github.com/Phuuu/blur-loading#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.12",
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.0"
   }
 }
